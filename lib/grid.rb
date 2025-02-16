@@ -34,6 +34,9 @@ class Grid
       puts ''
     end
     puts ('-' * 4 * 7) + '-' # 4 per col * 7 cols
+    Array(0..6).each { |c| print "| #{c} " }
+    print '|'
+    puts ''
   end
 
   def player_coin(plr)
