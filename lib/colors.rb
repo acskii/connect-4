@@ -7,4 +7,6 @@ module Colors
     cyan: :cyan,
     blue: :blue,
   }
+
+  def self.color_represent = '◉'
 end
